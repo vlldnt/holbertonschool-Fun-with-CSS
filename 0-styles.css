@@ -1,0 +1,33 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+ul li {
+    padding-top: 1.5rem;
+    list-style: none;
+    width: 290px;
+    height: 480px;
+    border: 1px black solid;
+    border-radius: 1rem;
+    text-align: center;
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+}
+
+ul li:first-child {
+    background-position: 0% 50%;
+}
+
+ul li:nth-child(2) {
+    background-position: center 50%;
+}
+
+ul li:last-child {
+    background-position: 100% 50%;
+}
