@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.toggle-cb {
+    display: none;
+}
+
+.toggle-inner {
+    z-index: 1;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(222, 217, 217);
+    border-radius: 25px;
+    border: 1px solid grey;
+    content: "No";
+    color: black;
+}
+
+.toggle-switch {
+    z-index: 10;
+    position: relative;
+    top: -50px;
+    left: -15px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid 1px grey;
+}
+
+

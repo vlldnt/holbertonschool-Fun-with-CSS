@@ -1,0 +1,25 @@
+body {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.menu-line {
+    width: 10px;
+    height: 2px;
+    color: bisque;
+}
+
+i::before {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
